@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<import src="../template/template.wxml" />
+<template is="progress" /> 
+
+<view class="container firstpage">
+
+<view class='tip'>
+<text>点击选择</text>
+<text>十万MatchU用户的热门选择</text>
+</view>
+
+<view class='products'>
+
+<view class='list' bindtap="select" data-id="1">
+<image class="{{isstyle==1?'imgborder':''}}" src="http://qiniucdn.immatchu.com/image/Page5_2/element/c_1.jpg"></image>
+<view>
+ <text>标准领</text>
+<text>适合上班族</text> 
+<text class="{{isstyle==1?'icon-choose':''}}" ></text>
+</view>
+
+</view>
+
+<view class='list' bindtap="select" data-id="2">
+<image class="{{isstyle==2?'imgborder':''}}" src="http://qiniucdn.immatchu.com/image/Page5_2/element/c_1.jpg"></image>
+<view>
+ <text>标准领</text>
+<text>适合上班族</text> 
+<text  class="{{isstyle==2?'icon-choose':''}}"></text>
+</view>
+
+</view>
+
+
+
+
+</view>
+
+
+
+
+
+
+</view>
+
+
+<template is="foot" /> 
