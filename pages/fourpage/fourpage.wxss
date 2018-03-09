@@ -1,0 +1,110 @@
+/* pages/fourpage/fourpage.wxss */
+@import '../template/template.wxss';
+.fourpage{
+  width: 100%;
+}
+.fourpage .title{
+  margin-top:20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.fourpage .title text{
+  display: block;
+  text-align:center;
+   font-size: 12px;
+    line-height: 20px;
+    color: #787878;
+}
+.fourpage .title text:nth-child(1){
+   color: #3c3c3c;
+    font-size: 17px;
+    line-height: 30px;
+}
+.count{
+  padding: 0px 10px;
+  border-bottom: 10px solid #f2f2f2;
+}
+.count view{
+    height: 50px;
+    line-height: 30px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.count .weight{
+  margin-top:10px;
+}
+.count view text{
+    float:left;
+    color: #4a4a4a;
+    font-size: 16px;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.count input{
+    outline: none;
+     width: 60%;
+    height: 35px; 
+    border: 1px solid #e2e2e2;
+     border-radius: 4px;
+    text-align: left;
+    padding-left: 10px; 
+    display: inline-block;
+}
+
+.maininfo{
+  padding: 10px 10px;
+  box-sizing: box;
+  width: 100%;
+  overflow: hidden;
+}
+.maininfo .tip{
+    height: 40px;
+    line-height: 40px;
+    color: #858585;
+    padding-left: 20px;
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+.maininfo .tip text{
+  line-height: 40px;
+    color: #858585;
+}
+.element-title:before {
+    content: '';
+    height: 24px;
+    margin-top: 8px;
+    width: 4px;
+    background-color: #d6a41d;
+    position: absolute;
+    border-radius: 1px;
+    margin-left: -20px;
+}
+.maininfo .list{
+    float: left;
+    width: 31%;
+    background: #FFFFFF;
+    position: relative;
+    border: 1px solid transparent;
+}
+.maininfo .list image{
+    width: 100%;
+    height: 85px;
+    border: 1px solid transparent;
+}
+.maininfo .list text{
+  display: block;
+}
+.maininfo .list text:nth-child(1){
+    color: #4a4a4a;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 5px;
+}
+.maininfo .list .dec{
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 2px;
+    color: #81848d;
+    margin-top: 5px;
+}

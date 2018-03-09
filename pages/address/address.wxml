@@ -1,0 +1,55 @@
+<!--pages/address/address.wxml-->
+<view class='address'>
+
+<view class='tip'>
+ <p>填写您的收货信息</p>
+ <text>从下单到发货，只需7个工作日，业界供应链标杆</text>
+ <text>到货7天内任何尺寸和面料质量问题</text>
+ <text>包返修，包重做</text>
+ <text>定制界少有的售后保障</text>
+</view>
+<!--地址-->
+<view class='userinfo'>
+<view class='info'>
+<text>姓名：</text>
+<input type='text' placeholder-style="font-size:14px;" placeholder='输入您的姓名' />
+</view>
+
+<view class='info'>
+<text>电话：</text>
+<input type='text' placeholder-style="font-size:14px;" placeholder='例如15111611123' />
+</view>
+
+<view class='info'>
+<text>地区：</text>
+<view class='pickerdiv'>
+<picker mode="region"  bindchange="bindCasPickerChange"  >
+            <view>
+              <p>{{cityarr[0]}}-{{cityarr[1]}}-{{cityarr[2]}}</p>
+            </view>
+  </picker>
+</view>
+
+
+
+
+</view>
+
+<view class='info'>
+<text>地址:</text>
+<input type='text' placeholder-style="font-size:14px;" placeholder='请填写您的地址' />
+</view>
+
+</view>
+
+<!-- 底部 -->
+ <view class='footflag'>
+ <view class='foot'>
+<button bindtap="back">上一步</button>
+<button bindtap='next'>立即支付</button>
+</view>
+ </view>
+
+</view>
+
+

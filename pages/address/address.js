@@ -1,11 +1,25 @@
-// pages/progress/progress.js
+// pages/address/address.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-   
+    cityarr:""
+  },
+  back:function(){
+    wx.navigateBack({
+      delta: 1
+    })
+  },
+  bindCasPickerChange: function (e) {
+    this.onReady()
+    // console.log(e)
+    console.log('Category picker发送选择改变，携带值为', e.detail)
+    this.setData({
+      cityarr: e.detail.value
+    })
   },
 
 
@@ -20,14 +34,16 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log(111)
+
+   
+    
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+
   },
 
   /**

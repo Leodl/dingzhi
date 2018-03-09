@@ -1,0 +1,13 @@
+<!--pages/threepage/threepage.wxml-->
+ <import src="../template/template.wxml" /> 
+<template is="progress" data="{{per}}" /> 
+
+
+<text>ddddd</text>
+
+
+
+
+
+
+ <template is="foot" />

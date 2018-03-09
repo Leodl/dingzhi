@@ -1,0 +1,72 @@
+<!--pages/fourpage/fourpage.wxml-->
+ <import src="../template/template.wxml" /> 
+<template is="progress" data="{{per}}" /> 
+
+<!--主体开始-->
+<view class='container fourpage'>
+<view class='title'>
+<text>描述您的身体特征</text>
+<text>AI智能测量，三分钟完成在线定制</text>
+<text>您只需跟着步骤描述您的体型特征即可</text>
+</view>
+</view>
+
+<!-- 计算 -->
+<view class='count'>
+<view class='height'>
+<text>身高(CM)</text>
+<input type='text' placeholder-style="font-size:14px;" placeholder="例如：175"></input>
+</view>
+
+<view class='weight'>
+<text>体重(KG)</text>
+<input type='text' placeholder-style="font-size:14px;" placeholder="例如：60"></input>
+</view>
+
+</view>
+
+<!-- 信息 -->
+<view class='maininfo'>
+<view class='tip element-title'>胸部</view>
+
+<view class='list'>
+
+<image src="http://qiniucdn.immatchu.com/image/feature/c1.jpg"></image>
+<text>肌肉</text>
+<text class='dec'>说三道四多所多所多</text>
+
+</view>
+
+<view class='list'>
+
+<image src="http://qiniucdn.immatchu.com/image/feature/c1.jpg"></image>
+<text>肌肉</text>
+<text class='dec'>说三道四多所多所多</text>
+
+</view>
+
+<view class='list'>
+
+<image src="http://qiniucdn.immatchu.com/image/feature/c1.jpg"></image>
+<text>肌肉</text>
+<text class='dec'>说三道四多所多所多</text>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+</view>
+
+
+
+
+
+
+ <template is="foot" />

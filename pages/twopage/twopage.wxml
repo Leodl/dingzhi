@@ -1,0 +1,11 @@
+<!--pages/twopage/twopage.wxml-->
+ <import src="../template/template.wxml" /> 
+ <template is="progress" data="{{per}}" /> 
+
+<text>2</text>
+
+
+
+
+
+ <template is="foot" />

@@ -1,10 +1,10 @@
 <!--pages/progress/progress.wxml-->
- <template name="progress"> 
+ <template name="progress" > 
 <view class='top' >
 <view class='progress_main'>
  <view class='progress'>
  <text>定制进度</text>
-<progress percent="40" show-info color='#d6a41d' stroke-width='12' />
+<progress percent="{{per}}" show-info color='#d6a41d' stroke-width='12' />
  </view>
 </view>
 
@@ -14,8 +14,8 @@
  <template name="foot"> 
  <view class='footflag'>
  <view class='foot'>
-<button>上一步</button>
-<button>下一步</button>
+<button bindtap="back">上一步</button>
+<button bindtap='next'>下一步</button>
 </view>
  </view>
 

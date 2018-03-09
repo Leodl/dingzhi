@@ -2,7 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/template/template"
+    "pages/template/template",
+    "pages/twopage/twopage",
+    "pages/threepage/threepage",
+    "pages/fourpage/fourpage",
+          "pages/address/address"
+        
   ],
   "window": {
     "backgroundTextStyle": "light",

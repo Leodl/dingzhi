@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+
 const app = getApp()
 
 Page({
@@ -8,7 +9,9 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    isstyle:""
+    isstyle:"",
+    urlarr: ['../twopage/twopage'],
+    per:25
   },
   //事件处理函数
   bindViewTap: function() {
@@ -21,6 +24,18 @@ Page({
     this.setData({
       isstyle: id
     }) 
+  },
+  next: function () {
+    //var that = this;
+    this.setData({
+      per:25
+    })
+    console.log(this.data.per)
+    var url = this.data.urlarr[0];
+    console.log(url)
+    wx.navigateTo({
+      url: '../twopage/twopage'
+    })
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

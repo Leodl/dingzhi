@@ -1,0 +1,80 @@
+/* pages/address/address.wxss */
+@import '../template/template.wxss';
+page{
+  height: 100%;
+}
+.address{
+  width: 100%;
+  height: 100%;
+  background:#f2f2f2;
+}
+.address .tip{
+  width: 100%;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.address .tip text,p{
+  display: block;
+  text-align: center;
+}
+.address .tip p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.address .tip text{
+    font-size: 12px;
+    line-height: 20px;
+    color: #787878;
+}
+.address .userinfo{
+  margin-top: 20px;
+    box-sizing: border-box;
+}
+.address .info{
+    box-sizing: border-box;
+  background: #ffffff;
+  width: 100%;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+     padding-left: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.address .info text{
+    float: left;
+    color: #333;
+    width: 15%;
+    display: inline-flex;
+}
+.address .info input{
+    outline: none;
+    border: 1px solid #e2e3e4;
+    font-size: 15px;
+    padding: 0 2%;
+    height: 35px;
+    width: 75%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ .address .info .pickerdiv{
+   width: 79%;
+   float: left;
+   margin-top: 10px;
+   border-radius:10rpx;
+   border:1px solid #ddd;
+   margin-right: 10px;
+ }
+ .address .info picker view{
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+   height: 35px;
+ }
+ .address .info picker view p{
+  position: absolute;
+  top:-15px;
+  left:12px; 
+ }
